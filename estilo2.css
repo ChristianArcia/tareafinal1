@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e7eb; /* Fondo claro */
+    color: #333333; /* Texto principal */
+}
+
+header {
+    background-color: #4A708B;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #375a7f; /* Línea decorativa */
+}
+
+.header-title {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px;
+    border-bottom: 2px solid transparent; /* Resalta enlace activo */
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #375a7f; /* Color de fondo al pasar el cursor */
+    border-bottom: 2px solid #ffffff;
+}
+
+.content-section {
+    background-color: #ffffff;
+    padding: 40px 60px;
+    margin: 20px auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px;
+}
+
+.content-section h2 {
+    color: #4A708B;
+    margin-bottom: 20px;
+    font-size: 2em;
+    border-bottom: 2px solid #375a7f; /* Línea bajo el encabezado */
+    display: inline-block;
+}
+
+.content-section p,
+.content-section ul {
+    color: #333333;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.content-section ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left; /* Alineación a la izquierda */
+}
+
+.content-section ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e8f0f5; /* Fondo de los elementos de lista */
+    border-left: 4px solid #4A708B; /* Línea decorativa a la izquierda */
+}
+
+.content-section a {
+    color: #4A708B;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.content-section a:hover {
+    border-bottom: 2px solid #4A708B;
+}
+
+footer {
+    background-color: #4A708B;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 5px solid #375a7f; /* Línea decorativa */
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
